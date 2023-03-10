@@ -1,0 +1,46 @@
+/* selector por clase */
+
+.subtítulo {
+    border :  1 px negro sólido;
+    box-shadow:  10 px  5 px  20 px oro;
+}
+
+h2 _ subtítulo {
+    color : rojo oscuro;
+}
+
+/* selector por atributo que tenga un atributo sun importar el valor */
+p [ lang = "ja" ]{
+    background-color: azure;
+    color : rgb(185, 179, 179);
+}
+
+a [ href $= "org" ]{
+    background-color: aquamarine;
+}
+una [ href ^= "#" ]{
+    color: yellowgreen;
+}
+a [ href *= "empresa" ]{
+    size :  85 px ;
+}
+
+
+/* selector de descendientes */
+ p principal {
+    border-bottom: 2 px con puntos negros;
+}
+/* Selector hijo directo */
+principal  >  p {
+    border-bottom :  5 px rojo discontinuo;
+}
+/* hermanos adyasentes */
+h3  +  pag {
+    border-bottom:  10 px púrpura sólido;
+    border-radius :  5 px ;
+}
+
+/* hermanos generales */
+h3  ~  pag {
+    font-size :  32 px ;
+}
