@@ -1,12 +1,12 @@
 /* selector por clase */
 
 .subtítulo {
-    border :  1 px negro sólido;
+    border :  1 px aqua solid;
     box-shadow:  10 px  5 px  20 px oro;
 }
 
 h2 _ subtítulo {
-    color : rojo oscuro;
+    color : red;
 }
 
 /* selector por atributo que tenga un atributo sun importar el valor */
@@ -41,6 +41,6 @@ h3  +  pag {
 }
 
 /* hermanos generales */
-h3  ~  pag {
+h3   pag {
     font-size :  32 px ;
 }
