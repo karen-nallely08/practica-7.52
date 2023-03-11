@@ -27,17 +27,17 @@ a [ href *= "empresa" ]{
 
 
 /* selector de descendientes */
- p principal {
-    border-bottom: 2 px con puntos negros;
+ p major {
+    border-bottom: 2 px white black dots;
 }
 /* Selector hijo directo */
-principal  >  p {
-    border-bottom :  5 px rojo discontinuo;
+major  >  p {
+    border-bottom :  5 px red;
 }
 /* hermanos adyasentes */
 h3  +  pag {
-    border-bottom:  10 px púrpura sólido;
-    border-radius :  5 px ;
+    border-bottom:  10px purple;
+    border-radius : 5px ;
 }
 
 /* hermanos generales */
